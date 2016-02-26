@@ -8,6 +8,10 @@ namespace Webjob_GetStarted_Common
         {
         }
 
+        public ContosoAdsContext(string connString) : base(connString)
+        {
+        }
+
         public DbSet<Ad> Ads { get; set; }
     
     }

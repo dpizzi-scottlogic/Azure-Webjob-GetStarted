@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webjob-GetStarted-Web", "Webjob-GetStarted-Web\Webjob-GetStarted-Web.csproj", "{F25FE3F8-FF86-4330-946B-293ED4D4F235}"
 EndProject
@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webjob-GetStarted-Common", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webjob-GetStarted-WJ", "Webjob-GetStarted-WJ\Webjob-GetStarted-WJ.csproj", "{A97B8ED0-F560-4D2A-92DF-28689087ADA0}"
 EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Contosoads-AzureCloudService", "Contosoads-AzureCloudService\Contosoads-AzureCloudService.ccproj", "{E74931B6-972D-4DFA-B28F-75E36CC0FF08}"
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService1", "AzureCloudService1\AzureCloudService1.ccproj", "{7392C1EC-495F-4A84-A262-4547D8A74861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso-WebRole", "Contoso-WebRole\Contoso-WebRole.csproj", "{20AB2D4D-F0B8-4AA6-A8AE-7916010B425F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{81662DE7-B871-4C0C-B36E-2B82DC0C1C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso-WorkerRole", "Contoso-WorkerRole\Contoso-WorkerRole.csproj", "{A8951EA9-4CA5-41EF-ADE8-D99B31B09D6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{7281E068-F4E1-4D9E-9354-DC67508D9655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,18 +33,18 @@ Global
 		{A97B8ED0-F560-4D2A-92DF-28689087ADA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A97B8ED0-F560-4D2A-92DF-28689087ADA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A97B8ED0-F560-4D2A-92DF-28689087ADA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E74931B6-972D-4DFA-B28F-75E36CC0FF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E74931B6-972D-4DFA-B28F-75E36CC0FF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E74931B6-972D-4DFA-B28F-75E36CC0FF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E74931B6-972D-4DFA-B28F-75E36CC0FF08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20AB2D4D-F0B8-4AA6-A8AE-7916010B425F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20AB2D4D-F0B8-4AA6-A8AE-7916010B425F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20AB2D4D-F0B8-4AA6-A8AE-7916010B425F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20AB2D4D-F0B8-4AA6-A8AE-7916010B425F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8951EA9-4CA5-41EF-ADE8-D99B31B09D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8951EA9-4CA5-41EF-ADE8-D99B31B09D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8951EA9-4CA5-41EF-ADE8-D99B31B09D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8951EA9-4CA5-41EF-ADE8-D99B31B09D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7392C1EC-495F-4A84-A262-4547D8A74861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7392C1EC-495F-4A84-A262-4547D8A74861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7392C1EC-495F-4A84-A262-4547D8A74861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7392C1EC-495F-4A84-A262-4547D8A74861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81662DE7-B871-4C0C-B36E-2B82DC0C1C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81662DE7-B871-4C0C-B36E-2B82DC0C1C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81662DE7-B871-4C0C-B36E-2B82DC0C1C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81662DE7-B871-4C0C-B36E-2B82DC0C1C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7281E068-F4E1-4D9E-9354-DC67508D9655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7281E068-F4E1-4D9E-9354-DC67508D9655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7281E068-F4E1-4D9E-9354-DC67508D9655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7281E068-F4E1-4D9E-9354-DC67508D9655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
